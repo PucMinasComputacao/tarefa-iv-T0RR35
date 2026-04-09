@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,19 +8,19 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 </head>
+
 <body>
 
     <header class="main-header">
         <div class="header-container">
-            <div class="logo-area">
-                <h1 class="site-logo">Roamazing</h1>
-            </div>
+            <a href="../../index.html"><img src="../images/logoCompleta.png" class="logo"></a>
             <nav class="nav-menu">
-                <a href="index.html">Home</a>
-                <a href="destinos/europa/europa.html">Europa</a>
-                <a href="#">América</a>
-                <a href="#">Ásia</a>
-                <a href="#">Brasil</a>
+                <a href="regions/brasil/brasil.html">Brasil</a>
+                <a href="regions/europa/europa.html">Europa</a>
+                <a href="regions/america/america.html">America</a>
+                <a href="regions/asia/asia.html">Asia</a>
+                <a href="regions/oceania/oceania.html">Oceania</a>
+                <a href="regions/africa/africa.html">Africa</a>
             </nav>
         </div>
     </header>
@@ -35,9 +36,10 @@
         <section class="intro-section">
             <div class="container">
                 <p class="intro-text">
-                    Bem-vindo à <strong>Roamazing</strong>, seu portal definitivo para exploração global. 
-                    Nós acreditamos que viajar vai além de visitar lugares; é sobre mergulhar em novas culturas, 
-                    saborear gastronomias exóticas e criar memórias que duram a vida toda. De capitais históricas na Europa 
+                    Bem-vindo à <strong>Roamazing</strong>, seu portal definitivo para exploração global.
+                    Nós acreditamos que viajar vai além de visitar lugares; é sobre mergulhar em novas culturas,
+                    saborear gastronomias exóticas e criar memórias que duram a vida toda. De capitais históricas na
+                    Europa
                     às praias paradisíacas da Oceania, selecionamos o que há de melhor para você.
                 </p>
                 <hr class="divider">
@@ -48,23 +50,26 @@
             <div class="container">
                 <h2 class="section-title">Explore por Continente</h2>
                 <div class="grid-layout">
-                    
-                    <article class="info-card">
-                        <img src="./regions/europa/destinos/paris.jfif" alt="Europa">
-                        <div class="card-content">
-                            <h3>Europa</h3>
-                            <p>História, castelos medievais e a sofisticação das maiores metrópoles do mundo.</p>
-                        </div>
-                    </article>
 
-                    <article class="info-card">
-                        <img src="./regions/america/destinos/ny.jpg" alt="América">
-                        <div class="card-content">
-                            <h3>Américas</h3>
-                            <p>Da agitação de Nova York às belezas naturais da Patagônia.</p>
-                        </div>
-                    </article>
-
+                    <a href="regions/europa/europa.html">
+                        <article class="info-card">
+                            <img src="./regions/europa/destinos/paris.jfif" alt="Europa">
+                            <div class="card-content">
+                                <h3>Europa</h3>
+                                <p>História, castelos medievais e a sofisticação das maiores metrópoles do mundo.</p>
+                            </div>
+                        </article>
+                    </a>
+                    <a href="regions/america/america.html">
+                        <article class="info-card">
+                            <img src="./regions/america/destinos/ny.jpg" alt="América">
+                            <div class="card-content">
+                                <h3>Américas</h3>
+                                <p>Da agitação de Nova York às belezas naturais da Patagônia.</p>
+                            </div>
+                        </article>
+                    </a>
+                    <a href="regions/africa/africa.html">
                     <article class="info-card">
                         <img src="./regions/africa/destinos/zanzibar.webp" alt="África">
                         <div class="card-content">
@@ -72,15 +77,34 @@
                             <p>Safáris inesquecíveis, desertos dourados e uma riqueza cultural sem igual.</p>
                         </div>
                     </article>
-
-                    <article class="info-card">
-                        <img src="./regions/brasil/destinos/brasilia.jpg" alt="Brasil">
-                        <div class="card-content">
-                            <h3>Brasil</h3>
-                            <p>O país do futebol como você nunca viu!</p>
-                        </div>
-                    </article>
-
+                    </a>
+                    <a href="regions/brasil/brasil.html">
+                        <article class="info-card">
+                            <img src="./regions/brasil/destinos/brasilia.jpg" alt="Brasil">
+                            <div class="card-content">
+                                <h3>Brasil</h3>
+                                <p>O país do futebol como você nunca viu!</p>
+                            </div>
+                        </article>
+                    </a>
+                    <a href="regions/asia/asia.html">
+                        <article class="info-card">
+                            <img src="./regions/asia/destinos/dubai.webp" alt="Brasil">
+                            <div class="card-content">
+                                <h3>Asia</h3>
+                                <p>O maior coninente do mundo com todas as suas culturas!</p>
+                            </div>
+                        </article>
+                    </a>
+                    <a href="regions/oceania/oceania.html">
+                        <article class="info-card">
+                            <img src="./regions/oceania/destinos/borabora.jfif" alt="Brasil">
+                            <div class="card-content">
+                                <h3>Oceania</h3>
+                                <p>Praias paradisíacas esperam por você aqui!</p>
+                            </div>
+                        </article>
+                    </a>
                 </div>
             </div>
         </section>
@@ -105,4 +129,5 @@
     </footer>
 
 </body>
+
 </html>

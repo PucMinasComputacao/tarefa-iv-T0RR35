@@ -1,12 +1,19 @@
-/* RESET BÁSICO */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+.logo{
+    position: relative; 
+    width: 270px; 
+    height: auto;
+    padding-left: 20px;
+    top: 20%;
+}
+
 body {
-    background-color: #FFF9D4; /* O mesmo bege do seu código */
+    background-color: #FFF9D4;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: #333;
     line-height: 1.6;
@@ -19,8 +26,8 @@ body {
 }
 
 .main-header {
-    background: #C41E3A; /* Vermelho cereja */
-    position: sticky;
+    background: #C41E3A;
+    position: -webkit-sticky;
     top: 0;
     z-index: 1000;
     padding: 15px 0;
@@ -173,7 +180,6 @@ body {
     font-size: 0.9rem;
 }
 
-<!--- MEDIA QUERIES P/ RESPONSIVIDADE --->
 @media (max-width: 768px) {
     .header-container {
         flex-direction: column;
