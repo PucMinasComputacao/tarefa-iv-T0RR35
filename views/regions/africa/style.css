@@ -6,7 +6,11 @@
 
 header{
     background: #d15f0d;
-    position: relative;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    opacity: 95%;
 }
 
 .logo{
